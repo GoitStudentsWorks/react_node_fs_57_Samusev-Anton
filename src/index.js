@@ -12,7 +12,7 @@ import { Provider } from 'react-redux';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename="/so-yummy">
+      <BrowserRouter basename="/react_node_fs_57_Samusev-Anton">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <App />
